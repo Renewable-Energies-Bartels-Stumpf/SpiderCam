@@ -25,20 +25,33 @@ def bubblesort(array)
 end
 
 def insertionsort(array)
-  puts "test"
-  for j in 2..array.length do
-    puts "test"
-    key = array[j]
-    puts "test"
-      i = (j − 1)
+  for x in 2..array.length do
+    key = array[x]
+      y=x−1
       puts "test"
-        while i > 0 and array[i] > key do
-          array[i + 1]    = array[i]
-          i               = (i − 1)
-          array[i + 1]    = key
+        while y > 0 and array[y] > key do
+          array[y + 1]    = array[y]
+          y               = y−1
+          array[y + 1]    = key
         end
   end
   return getstring(array)
+end
+
+def selectionsort(array)
+  for y in 0..array.length - 1 do
+    min = array[y]
+    for x in 0..array.length-1 do
+      if array[x] < min then
+        min = array[x]
+      end
+    end
+    if min != array[y] then
+      ablage        = array[x]
+      array[x]      = array[x + 1]
+      array[x + 1]  = ablage
+    end
+  end
 end
 
 #main
