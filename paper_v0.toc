@@ -1,14 +1,14 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung}{4}%
-\contentsline {section}{\numberline {2}Herleitung der inversen Kinematik Andi}{5}%
-\contentsline {subsection}{\numberline {2.1}Betrachtung im Zweidimensionalen}{5}%
-\contentsline {subsubsection}{\numberline {2.1.1}Definition der Punkte}{5}%
-\contentsline {subsubsection}{\numberline {2.1.2}Raumbegrenzung}{6}%
-\contentsline {subsubsection}{\numberline {2.1.3}Berechnung der Längenänderungen}{6}%
-\contentsline {subsection}{\numberline {2.2}Betrachtung im Dreidimensionalen}{7}%
-\contentsline {subsubsection}{\numberline {2.2.1}Definition der Punkte}{7}%
-\contentsline {subsubsection}{\numberline {2.2.2}Raumbegrenzung}{7}%
-\contentsline {subsubsection}{\numberline {2.2.3}Berechnung der Längenänderungen}{7}%
-\contentsline {section}{\numberline {3}Herleitung der inversen Kinematik }{8}%
-\contentsline {subsection}{\numberline {3.1}Mechanische Konstruktion}{8}%
-\contentsline {subsection}{\numberline {3.2}Inverse Kinematik}{8}%
+\contentsline {section}{\numberline {1}Einleitung}{5}%
+\contentsline {section}{\numberline {2}Herleitung der inversen Kinematik Andi}{6}%
+\contentsline {subsection}{\numberline {2.1}Betrachtung im Zweidimensionalen}{6}%
+\contentsline {subsubsection}{\numberline {2.1.1}Definition der Punkte}{6}%
+\contentsline {subsubsection}{\numberline {2.1.2}Raumbegrenzung}{7}%
+\contentsline {subsubsection}{\numberline {2.1.3}Berechnung der Längenänderungen}{7}%
+\contentsline {subsection}{\numberline {2.2}Betrachtung im Dreidimensionalen}{8}%
+\contentsline {subsubsection}{\numberline {2.2.1}Definition der Punkte}{8}%
+\contentsline {subsubsection}{\numberline {2.2.2}Raumbegrenzung}{8}%
+\contentsline {subsubsection}{\numberline {2.2.3}Berechnung der Längenänderungen}{9}%
+\contentsline {section}{\numberline {3}Herleitung der inversen Kinematik }{10}%
+\contentsline {subsection}{\numberline {3.1}Mechanische Konstruktion}{10}%
+\contentsline {subsection}{\numberline {3.2}Inverse Kinematik}{10}%
