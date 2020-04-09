@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.5)  7 APR 2020 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  9 APR 2020 13:14
 entering extended mode
-**./paper_v0.tex
-(paper_v0.tex
+**./paper_v1.tex
+(paper_v1.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+L3 programming layer <2020-04-06> (P:\miktex\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+(P:\miktex\tex/latex/base\size12.clo
 File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -21,20 +20,16 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-sty"
+(C:\Users\andia\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
-y"
+(P:\miktex\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
-"
+(P:\miktex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- ("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty
-"
+ (P:\miktex\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count175
@@ -49,112 +44,89 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen141
 \Gm@layoutvoffset=\dimen142
 \Gm@dimlist=\toks16
-
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
-cfg"))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+ (C:\Users\andia\AppData\Roaming\MiKTeX\2.9\tex/latex/geometry\geometry.cfg))
+(P:\miktex\tex/generic/babel\babel.sty
 Package: babel 2020/03/22 3.42 The Babel package
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
-"
+ (P:\miktex\tex/generic/babel\switch.def
 File: switch.def 2020/03/22 3.42 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+(P:\miktex\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
-an.ldf"
+(C:\Users\andia\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-german\ngerman.ldf
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
-anb.ldf"
+(C:\Users\andia\AppData\Roaming\MiKTeX\2.9\tex/latex/babel-german\ngermanb.ldf
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
 aphy)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+(P:\miktex\tex/generic/babel\babel.def
 File: babel.def 2020/03/22 3.42 Babel common definitions
 \babel@savecnt=\count178
 \U@D=\dimen143
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
-ef")
+(P:\miktex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count179
 )
 Package babel Info: Making " an active character on input line 121.
 )))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
-sty"
+(P:\miktex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
-sty"
+(P:\miktex\tex/latex/graphics\graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+(P:\miktex\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
-ics.cfg"
+(P:\miktex\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
+(P:\miktex\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-3dplot\tikz-3
-dplot.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
-.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
-cs.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-common.tex"
+(C:\Users\andia\AppData\Roaming\MiKTeX\2.9\tex/latex/tikz-3dplot\tikz-3dplot.st
+y (P:\miktex\tex/latex/pgf/basiclayer\pgf.sty
+(P:\miktex\tex/latex/pgf/utilities\pgfrcs.sty
+(P:\miktex\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks17
 \pgfutil@tempdima=\dimen146
 \pgfutil@tempdimb=\dimen147
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-common-lists.tex"))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-futil-latex.def"
+(P:\miktex\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(P:\miktex\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box45
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+(P:\miktex\tex/latex/ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-frcs.code.tex"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
-.tex")
+(P:\miktex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(P:\miktex\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
-core.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
-fsys.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys.code.tex"
+(P:\miktex\tex/latex/pgf/basiclayer\pgfcore.sty
+(P:\miktex\tex/latex/pgf/systemlayer\pgfsys.sty
+(P:\miktex\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeys.code.tex"
+(P:\miktex\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks18
 \pgfkeys@temptoks=\toks19
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeysfiltered.code.tex"
+(P:\miktex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks20
 ))
 \pgf@x=\dimen148
@@ -178,35 +150,29 @@ fkeysfiltered.code.tex"
 \t@pgf@tokc=\toks23
 \pgf@sys@id@count=\count184
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgf.cfg"
+(P:\miktex\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys-pdftex.def"
+(P:\miktex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsys-common-pdf.def"
+(P:\miktex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsyssoftpath.code.tex"
+(P:\miktex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count185
 \pgfsyssoftpath@bigbuffer@items=\count186
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
-pgfsysprotocol.code.tex"
+(P:\miktex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+(P:\miktex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
-.cfg"
+(P:\miktex\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -220,18 +186,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcore.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-calc.code.tex"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-util.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-parser.code.tex"
+(P:\miktex\tex/generic/pgf/math\pgfmath.code.tex
+(P:\miktex\tex/generic/pgf/math\pgfmathcalc.code.tex
+(P:\miktex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen158
 \pgfmath@count=\count187
 \pgfmath@box=\box46
@@ -239,32 +200,20 @@ parser.code.tex"
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.code.tex"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.basic.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.trigonometric.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.random.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.comparison.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.base.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.round.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.misc.code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-functions.integerarithmetics.code.tex")))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-float.code.tex"
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(P:\miktex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex)))
+(P:\miktex\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count188
 ))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
-code.tex")
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepoints.code.tex"
+(P:\miktex\tex/generic/pgf/math\pgfint.code.tex)
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen159
 \pgf@picmaxx=\dimen160
@@ -281,107 +230,87 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@zx=\dimen171
 \pgf@zy=\dimen172
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathconstruct.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen173
 \pgf@path@lasty=\dimen174
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathusage.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen175
 \pgf@shorten@start@additional=\dimen176
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorescopes.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box47
 \pgf@hbox=\box48
 \pgf@layerbox@main=\box49
 \pgf@picture@serial@count=\count189
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoregraphicstate.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgflinewidth=\dimen177
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoretransformations.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen178
 \pgf@pt@y=\dimen179
 \pgf@pt@temp=\dimen180
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorequick.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreobjects.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepathprocessing.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorearrows.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen181
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreshade.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen182
 \pgf@sys@shading@range@num=\count190
 \pgf@shadingcount=\count191
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreimage.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoreexternal.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfexternal@startupbox=\box50
 ))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorelayers.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcoretransparency.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorepatterns.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
-gfcorerdf.code.tex"
+(P:\miktex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-oduleshapes.code.tex"
+(P:\miktex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfnodeparttextbox=\box51
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-oduleplot.code.tex"
+(P:\miktex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
-pgfcomp-version-0-65.sty"
+(P:\miktex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@nodesepstart=\dimen183
 \pgf@nodesepend=\dimen184
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
-pgfcomp-version-1-18.sty"
+(P:\miktex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 ))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+(P:\miktex\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ! Undefined control sequence.
@@ -464,31 +393,24 @@ Overfull \hbox (40.70837pt too wide) in paragraph at lines 43--44
  = []$ 
  []
 
-)
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
-y"
+) (P:\miktex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
-y"
+(P:\miktex\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
-"
+(P:\miktex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks27
 \ex@=\dimen185
 ))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
-"
+(P:\miktex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen186
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
-"
+(P:\miktex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count192
@@ -529,35 +451,25 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
-tikz.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
-or.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
-eys.sty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-fkeys.code.tex"))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
-ty"
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex"))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
-ffor.code.tex"
+(P:\miktex\tex/latex/pgf/frontendlayer\tikz.sty
+(P:\miktex\tex/latex/pgf/utilities\pgffor.sty
+(P:\miktex\tex/latex/pgf/utilities\pgfkeys.sty
+(P:\miktex\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(P:\miktex\tex/latex/pgf/math\pgfmath.sty
+(P:\miktex\tex/generic/pgf/math\pgfmath.code.tex))
+(P:\miktex\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
-.code.tex")
+(P:\miktex\tex/generic/pgf/math\pgfmath.code.tex)
 \pgffor@iter=\dimen194
 \pgffor@skip=\dimen195
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 ))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz\tikz.code.tex"
+(P:\miktex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
-flibraryplothandlers.code.tex"
+(P:\miktex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count270
 \pgfplotmarksize=\dimen196
@@ -579,8 +491,7 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikznumberofcurrentchild=\count273
 \tikz@fig@count=\count274
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
-odulematrix.code.tex"
+(P:\miktex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmatrixcurrentrow=\count275
 \pgfmatrixcurrentcolumn=\count276
@@ -588,17 +499,16 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 \tikz@expandcount=\count278
 
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
-r/tikz/libraries\tikzlibrarytopaths.code.tex"
+(P:\miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code
+.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)))
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
-d-pdfmode.def"
+))) (P:\miktex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count279
 \l__pdf_internal_box=\box58
-) (paper_v0.aux)
-\openout1 = `paper_v0.aux'.
+)
+No file paper_v1.aux.
+\openout1 = `paper_v1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -614,7 +524,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -649,9 +558,7 @@ LaTeX Font Info:    ... okay on input line 12.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
-df.mkii"
+(P:\miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count280
 \scratchdimen=\dimen261
@@ -664,25 +571,24 @@ df.mkii"
 \MPnumerator=\count284
 \makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks35
-)
-("C:\Users\andia\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
-pdf-base.sty"
+) (P:\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-) ABD: EveryShipout initializing macros [1
+)
+ABD: EveryShipout initializing macros [1
 
-{C:/Users/andia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (paper_
-v0.toc)
+{C:/Users/andia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+No file paper_v1.toc.
 \tf@toc=\write4
-\openout4 = `paper_v0.toc'.
+\openout4 = `paper_v1.toc'.
 
- [3]
-(paper_v0.lof)
+[3]
+No file paper_v1.lof.
 \tf@lof=\write5
-\openout5 = `paper_v0.lof'.
+\openout5 = `paper_v1.lof'.
 
- [4] [5] [6]
+[4] [5] [6]
 Overfull \hbox (54.66693pt too wide) in paragraph at lines 107--116
 \OT1/cmr/m/n/12 Ist ga-ran-tiert, dass al-le Punk-te der Be-we-gung rea-li-sier
 -bar sind kann die Be-rech-nung der Seill[]angen[]anderung
@@ -749,35 +655,34 @@ Missing character: There is no ´ in font cmr8!
 
 LaTeX Warning: File `mech_constr.png' not found on input line 176.
 
-[10] [11] (paper_v0.aux) )
+[10] [11] (paper_v1.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 43 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 13682 strings out of 480931
- 270052 string characters out of 2899796
- 512203 words of memory out of 3000000
- 29291 multiletter control sequences out of 15000+200000
+ 13676 strings out of 480930
+ 261494 string characters out of 2917968
+ 512229 words of memory out of 3000000
+ 29292 multiletter control sequences out of 15000+200000
  538800 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,60p,435b,4273s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,14n,60p,435b,4275s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\andia\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
 pen/ec/dpi600\tcrm1200.pk> <C:\Users\andia\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/andia/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/andia/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/andia/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
-Users/andia/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Users/andia/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Users/andia/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><C:/Users/andia/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/andia/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/andia/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/a
-ndia/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pf
-b>
-Output written on paper_v0.pdf (11 pages, 129436 bytes).
+four/jknappen/ec/dpi600\tcrm0800.pk><P:/miktex/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><P:/miktex/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><P:/miktex/fonts/
+type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/miktex/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmtt
+12.pfb>
+Output written on paper_v1.pdf (11 pages, 128258 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
