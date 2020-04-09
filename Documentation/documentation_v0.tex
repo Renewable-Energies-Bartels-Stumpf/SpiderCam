@@ -21,9 +21,9 @@
 	Dabei wird eine theoretische Herleitung der Ortskoordinaten einer solchen Konstruktion durchgeführt und anschließend an einem Model verifiziert.
 	Ziel ist es entweder durch Vorgabe eines Endpunktes eine automatisierte Bewegungssteuerung zum definierten Punkt, oder eine Verfolgung einer Solltrajektorie zu erreichen.
 	\pagebreak
-	\section{Herleitung der inversen Kinematik Andi}
-		\subsection{Betrachtung im Zweidimensionalen}
-			\subsubsection{Definition der Punkte}
+	\section{Betrachtungen im Zweidimensionalen}
+		\subsection{Vereinfachte Betrachtung eines Punktes}
+			\subsubsection{Definition der Eckpunkte}
 			Um das Anfangsproblem zu vereinfachen wird die Herleitung der Längenänderung des Seils eines Motors zunächst im zweidimensionalen durchgeführt. Das Übersetzen der Funktionen in den dreidimensionalen Raum ist damit trivial.
 			Um eine Durchführbarkeit innerhalb der geometrischen Begrenzungen zu garantieren, wird ein Koordinatensystem so in den Raum gelegt, sodass sich für zwei der drei Eckpunkte ein x- Wert von Null ergibt. Damit lassen sich Begrenzungsfunktionen zwischen den Eckpunkten aufstellen, die eine einfache Berechnung der Machbarkeit zulassen. Der theoretische Aufbau der Konstruktion sieht dann wie folgt aus:
 			\begin{figure}[h!]		
@@ -64,7 +64,7 @@
 					\fill (B) circle (2pt);
 					\fill (C) circle (2pt);
 				\end{tikzpicture}
-				\caption{Darstellung der Transformation eines Punktes}
+				\caption{Darstellung der Transformation eines Punktes im Zweidimensionalen}
 			\end{figure}
 			\pagebreak
 			\subsubsection{Raumbegrenzung}
@@ -120,22 +120,58 @@
 				(P^{`}\textsubscript{y}-N\textsubscript{y})^2
 				}
 			\end{align}
-		\subsection{Betrachtung im Dreidimensionalen}
-			\subsubsection{Definition der Punkte}
+		\subsection{Übertragen zur Plattform}
+			\subsubsection{Definition der Eckpunkte}
+			\subsubsection{Raumbegrenzung}
+			\subsubsection{Berechnung der Längenänderungen}
+	\section{Betrachtungen im Dreidimensionalen}
+			\subsection{Vereinfachung durch Bewegung eines Punktes}
+			\subsection{Definition der Punkte}
 			Die Positionen der Motoren bleiben nach der Betrachtung im Zweidimensionalen identisch, jedoch wird jeder Motorposition eine Z- Koordinate hinzugefügt, sodass sich die Eckpunkte nun im Format N=(N\textsubscript{x} N\textsubscript{y} N\textsubscript{z}) befinden. Die x- und y- Komponenten bleiben bestehen, um sämtliche Vereinfachungen aus dem Zweidimensionalen übernehmen zu können.
 			\begin{figure}[h!]	
-			\begin{tikzpicture}[scale=1]
-				\draw[thick,->] (0,0,0) 		-- 	(15,0,0) 		node[anchor=north east]	{$x$};
-				\draw[thick,->] (0,0,0) 		-- 	(0,0,-15) 		node[anchor=north west]	{$y$};
-				\draw[thick,->] (0,0,0) 		-- 	(0,15,0) 		node[anchor=south]		{$z$};	
-				\draw[thick] 	(0,10,0) 		-- 	(14.5,10,0) 	node[anchor=south]		{$AB$};		
-				\draw[thick] 	(14.5,10,0) 	-- 	(7.25,10,-12) 	node[anchor=south]		{$BC$};	
-				\draw[thick] 	(7.25,10,-12) 	-- 	(0,10,0) 		node[anchor=south]		{$CA$};	
-				\draw[thick] 	(0,0,0) 		-- 	(5,3.5,1.5) 	node[anchor=south]		{$P$};
-				\draw[thick] 	(0,0,0) 		-- 	(9,3.5,5.7) 	node[anchor=south]		{$P`$};
-			\end{tikzpicture} 
+				\begin{tikzpicture}[scale=1]		   
+					\coordinate 	[label=left:A] 										(A) 	at 	(0,10,0);
+					\coordinate 	[label=right:B] 									(B) 	at 	(14.5,10,0);
+					\coordinate 	[label=above:C] 									(C) 	at 	(7.25,10,-12);
+					\coordinate 	[label=left:P] 										(P) 	at 	(5,3.5,-1.5);
+					\coordinate 	[label=right:P'] 									(P') 	at 	(9,3.5,-5.7);
+				
+					\coordinate		[label=left:P\textsubscript{y}]						(YP)	at 	(0,0,-1.5);
+					\coordinate		[label=below:P\textsubscript{x}]					(XP)	at 	(5,0,0);
+					\coordinate		[label=left:P\textsuperscript{`}\textsubscript{y}]	(YP')	at 	(0,0,-5.7);
+					\coordinate		[label=below:P\textsuperscript{`}\textsubscript{x}]	(XP')	at 	(9,0,0);
+					\coordinate		[label=below:B\textsubscript{x}]					(XB)	at 	(14.5,0,0);
+					\coordinate		[label=below:C\textsubscript{x}]					(XC)	at 	(7.25,0,0);
+					\coordinate		[label=left:C\textsubscript{y}]					    (YC)	at 	(0,0,-12);
+				
+												   %(x		,z		,y)
+					\draw[thick,->] (0,0,0) 		-- 	(15,0,0) 		node[anchor=north west]	{$x$};
+					\draw[thick,->] (0,0,0) 		-- 	(0,0,-15) 		node[anchor=south east]	{$y$};
+					\draw[thick,->] (0,0,0) 		-- 	(0,15,0) 		node[anchor=south]		{$z$};	
+					\draw[thick] 	(A) 			-- 	(B) 			;		
+					\draw[thick] 	(B) 			-- 	(C) 			node[midway,right]		{$y2$};	
+					\draw[thick] 	(C) 			-- 	(A) 			node[midway,above]		{$y1$};	
+					\draw[thick] 	(A) 			-- 	(P) 			node[midway,above]		{$a$};
+					\draw[thick] 	(A) 			-- 	(P') 			node[midway,above]		{$a'$};
+					\draw[thick] 	(B) 			-- 	(P) 			node[midway,above]		{$b$};
+					\draw[thick] 	(B) 			-- 	(P') 			node[midway,right]		{$b'$};
+					\draw[thick] 	(C) 			-- 	(P) 			node[midway,right]		{$c$};
+					\draw[thick] 	(C) 			-- 	(P') 			node[midway,left]		{$c'$};
+					\draw[thick] 	(P) 			-- 	(P') 			node[midway,above]		{$t$};
+					\draw[dashed,-]  (XB) 			-- 	(B) 		;
+					\draw[dashed,-]  (XC) 			-- 	(7.25,0,-12) 		;
+					\draw[dashed,-]  (YC) 			-- 	(7.25,0,-12) 		;
+					\draw[dashed,-]  (7.25,0,-12) 	-- 	(C) 		;
+					\draw[dashed,-]  (XP) 			-- 	(5,0,-1.5) 		;
+					\draw[dashed,-]  (YP) 			-- 	(5,0,-1.5) 		;
+					\draw[dashed,-]  (5,0,-1.5) 	-- 	(P);
+					\draw[dashed,-]  (XP') 			-- 	(9,0,-5.7) 		;
+					\draw[dashed,-]  (YP') 			-- 	(9,0,-5.7) 		;
+					\draw[dashed,-]  (9,0,-5.7) 	-- 	(P');
+				\end{tikzpicture}
+				\caption{Darstellung der Transformation eines Punktes im Dreidimensionalen} 
 			\end{figure}
-			\subsubsection{Raumbegrenzung}
+			\subsection{Raumbegrenzung}
 			Die Berechnung der räumlichen Begrenzung einer Bewegung im dreidimensionalen Raum kann äquivalent zur Bewegung im Zweidimensionalen durchgeführt werden. Die Begrenzung wird jedoch um folgende Bedingung erweitert:
 			\begin{align}
 				P\textsubscript{z}<A\textsubscript{z}\land P\textsubscript{z}>0
@@ -152,7 +188,7 @@
 				\land	P\textsubscript{z}<A\textsubscript{z}
 				\land 	P\textsubscript{z}>0
 			\end{align}
-			\subsubsection{Berechnung der Längenänderungen}
+			\subsection{Berechnung der Längenänderungen}
 			Die Berechnung der Längenänderung ergibt sich analog zum Zweidimensionalen, wird jedoch um die Z- Komponente erweitert.
 			\begin{align}
 				\Delta n =
@@ -162,49 +198,5 @@
 				(P^{`}\textsubscript{y}-N\textsubscript{y})^2+
 				(P^{`}\textsubscript{z}-N\textsubscript{z})^2
 				}
-			\end{align}
-			\pagebreak	
-	\section{Herleitung der inversen Kinematik }
-		\subsection{Mechanische Konstruktion}
-	Vereinfacht wird im folgenden Angenommen, dass sich die gesamte Anordnung der Kameraposition zunächst durch ein einfaches, gleichseitiges Dreieck annehmen lässt.
-	Die Entscheidung zu Gunsten eines Dreiecks basiert auf der Tatsache, dass zur Befestigung einer Plattform im dreidimensionalen Raum mindesten drei Befestigungspunkte benötigt werden.
-	Daraus resultiert die Wahl von drei Seilen zur Steuerung.
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.8\textwidth,draft]{mech_constr.png}
-		\label{key}
-		\caption{Die Mechanische Konstruktion mit Vereinfachungen.}
-	\end{figure}
-
-		\subsection{Inverse Kinematik}
-		Zunächst soll an dieser Stelle die Pose der Kamera zu bestimmen. 
-		Diese besteht aus den kartesischen Koordinaten
-	
-		\begin{align}
-			\vec{p} = 
-			\begin{pmatrix}
-				p_x \\
-				p_y \\
-				p_z
-			\end{pmatrix} , 
-		\end{align}
-	
-		mit den jeweiligen Koordinaten in x,y und z Richtung.
-		Die Parametrierung der Winkel erfolgt über Kardan-Winkel (Roll, Pitch, Yaw).
-		Diese zeichnet sich dadurch aus, dass die Drehung um x-, y- und z-Achse jeweils um die alten Achsen durchgeführt wird.
-		Daraus ergibt sich Bestimmung der Lage
-	
-		\begin{align}
-			\vec{w}=
-			\begin{pmatrix}
-				\phi_e \\
-				\theta_e \\
-				\psi_e
-			\end{pmatrix},
-		\end{align}
-
-		jeweils bezogen auf den Endeffektor-Frame.
-	
-		
+			\end{align}	
 \end{document}

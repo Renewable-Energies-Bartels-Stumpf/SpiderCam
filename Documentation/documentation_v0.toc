@@ -1,14 +1,16 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Einleitung}{4}%
-\contentsline {section}{\numberline {2}Herleitung der inversen Kinematik Andi}{5}%
-\contentsline {subsection}{\numberline {2.1}Betrachtung im Zweidimensionalen}{5}%
-\contentsline {subsubsection}{\numberline {2.1.1}Definition der Punkte}{5}%
+\contentsline {section}{\numberline {2}Betrachtungen im Zweidimensionalen}{5}%
+\contentsline {subsection}{\numberline {2.1}Vereinfachte Betrachtung eines Punktes}{5}%
+\contentsline {subsubsection}{\numberline {2.1.1}Definition der Eckpunkte}{5}%
 \contentsline {subsubsection}{\numberline {2.1.2}Raumbegrenzung}{6}%
 \contentsline {subsubsection}{\numberline {2.1.3}Berechnung der Längenänderungen}{6}%
-\contentsline {subsection}{\numberline {2.2}Betrachtung im Dreidimensionalen}{7}%
-\contentsline {subsubsection}{\numberline {2.2.1}Definition der Punkte}{7}%
+\contentsline {subsection}{\numberline {2.2}Übertragen zur Plattform}{7}%
+\contentsline {subsubsection}{\numberline {2.2.1}Definition der Eckpunkte}{7}%
 \contentsline {subsubsection}{\numberline {2.2.2}Raumbegrenzung}{7}%
-\contentsline {subsubsection}{\numberline {2.2.3}Berechnung der Längenänderungen}{8}%
-\contentsline {section}{\numberline {3}Herleitung der inversen Kinematik }{9}%
-\contentsline {subsection}{\numberline {3.1}Mechanische Konstruktion}{9}%
-\contentsline {subsection}{\numberline {3.2}Inverse Kinematik}{9}%
+\contentsline {subsubsection}{\numberline {2.2.3}Berechnung der Längenänderungen}{7}%
+\contentsline {section}{\numberline {3}Betrachtungen im Dreidimensionalen}{7}%
+\contentsline {subsection}{\numberline {3.1}Vereinfachung durch Bewegung eines Punktes}{7}%
+\contentsline {subsection}{\numberline {3.2}Definition der Punkte}{7}%
+\contentsline {subsection}{\numberline {3.3}Raumbegrenzung}{7}%
+\contentsline {subsection}{\numberline {3.4}Berechnung der Längenänderungen}{7}%
