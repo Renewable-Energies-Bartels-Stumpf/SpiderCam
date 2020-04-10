@@ -7,12 +7,11 @@
 \usepackage{amsmath}
 \title{Spidercam}
 \date{April 2020}
-\author{Andreas Stumpf, Sönke Bartelo}
+\author{Andreas Stumpf, Sönke Bartels}
 \begin{document}
 	\maketitle
 	\newpage
 	\tableofcontents
-	\pagebreak
 	\listoffigures
 	\pagebreak
 	\section{Einleitung}
@@ -21,10 +20,12 @@
 	Dabei wird eine theoretische Herleitung der Ortskoordinaten einer solchen Konstruktion durchgeführt und anschließend an einem Model verifiziert.
 	Ziel ist es entweder durch Vorgabe eines Endpunktes eine automatisierte Bewegungssteuerung zum definierten Punkt, oder eine Verfolgung einer Solltrajektorie zu erreichen.
 	\pagebreak
-	\section{Betrachtungen im Zweidimensionalen}
-		\subsection{Vereinfachte Betrachtung eines Punktes}
+	\section{Betrachtung eines Punktes}
+		Da eine Darstellung der realen Konstruktion für sämtliche Herleitungen zunächst nicht erforderlich ist, wird im folgenden vereinfacht von der Transformation eines Punktes ausgegangen. Später wird eine Anpassung sämtlicher Herleitungen auf den realen Anwendungsfall erfolgen.
+		\subsection{Vereinfachungen im Zweidimensionalen Fall}
+		Um das Anfangsproblem zu vereinfachen wird die Herleitung der Längenänderung des Seils eines Motors zunächst im Zweidimensionalen durchgeführt. Das Übersetzen der Funktionen in den dreidimensionalen Raum ist damit trivial.
+			\pagebreak
 			\subsubsection{Definition der Eckpunkte}
-			Um das Anfangsproblem zu vereinfachen wird die Herleitung der Längenänderung des Seils eines Motors zunächst im zweidimensionalen durchgeführt. Das Übersetzen der Funktionen in den dreidimensionalen Raum ist damit trivial.
 			Um eine Durchführbarkeit innerhalb der geometrischen Begrenzungen zu garantieren, wird ein Koordinatensystem so in den Raum gelegt, sodass sich für zwei der drei Eckpunkte ein x- Wert von Null ergibt. Damit lassen sich Begrenzungsfunktionen zwischen den Eckpunkten aufstellen, die eine einfache Berechnung der Machbarkeit zulassen. Der theoretische Aufbau der Konstruktion sieht dann wie folgt aus:
 			\begin{figure}[h!]		
 				\begin{tikzpicture}
@@ -48,11 +49,11 @@
 					\draw 	(B) -- (C) node[midway,right] {y\textsubscript{2}};
 					\draw 	(C) -- (A) node[midway,left] {y\textsubscript{1}};
 					\draw 	(A) -- (P) node[midway,above] {$\vec{a}$};
-					\draw 	(A) -- (P`)node[midway,above] {$\vec{a\textsuperscript{´}}$};
+					\draw 	(A) -- (P`)node[midway,above] {$\vec{a\textsuperscript{'}}$};
 					\draw 	(B) -- (P) node[midway,above] {$\vec{b}$};
-					\draw 	(B) -- (P`)node[midway,above] {$\vec{b\textsuperscript{´}}$};
+					\draw 	(B) -- (P`)node[midway,above] {$\vec{b\textsuperscript{'}}$};
 					\draw 	(C) -- (P) node[midway,left]  {$\vec{c}$};
-					\draw 	(C) -- (P`)node[midway,left]  {$\vec{c\textsuperscript{´}}$};
+					\draw 	(C) -- (P`)node[midway,left]  {$\vec{c\textsuperscript{'}}$};
 					\draw 	(P) -- (P`)node[midway,left]  {$\vec{t}$};
 					\draw [dashed]  (YP) -- (P);
 					\draw [dashed]  (XP) -- (P);
@@ -78,7 +79,7 @@
 				y \textsubscript{1} = m \textsubscript{1} * x + b \textsubscript{1}\\
 				y \textsubscript{2} = m \textsubscript{2} * x + b \textsubscript{2}
 			\end{align}
-			Mit b\textsubscript{1}=0 und m\textsubscript{1}=$\frac{\Delta y}{\Delta x}$
+			Mit b\textsubscript{1}=0 und m\textsubscript{1}=$\frac{\Delta y}{\Delta x}$ ergibt sich y\textsubscript{1} zu:
 			\begin{align}
 				y\textsubscript{1} = \frac{c \textsubscript{y}-a \textsubscript{y}}{c \textsubscript{x}-a \textsubscript{x}} * x
 			\end{align}
@@ -107,96 +108,92 @@
 			Die Längenänderung der Steuerseile kann geometrisch bestimmt werden.
 			Dabei wird davon ausgegangen, dass die aktuelle Kameraposition P, sowie die Montagepositionen der Aktuatoren A, B und C bekannt sind.\\
 			Die Länge des Seils a zu Motor A kann bestimmt werden als Subtraktion des Vektors zu Motor A und des Vektors zu P.\\
-			Die Länge des Seils a´ zu Motor A kann bestimmt werden als Subtraktion des Vektors zu Motor A und des Vektors zu P.\\
-			Damit ergibt sich die Längenänderung des Seils zu Motor A als Differenz der Längen a und a´.
+			Die Länge des Seils a' zu Motor A kann bestimmt werden als Subtraktion des Vektors zu Motor A und des Vektors zu P'.\\
+			Damit ergibt sich die Längenänderung des Seils zu Motor A als Differenz der Längen a und a'.
 			Analog dazu ergeben sich die Längenänderungen der Seile zu Motor B und C.
 			Soll ein Punkt mit drei Aktuatoren in der Ebene bewegt werden,
 			so ergibt sich die Längenänderung $\Delta n$ in Abhängigkeit der Montageposition des Aktuators und der angestrebten Kameraposition zu:
 			\begin{align}
 				\Delta n =
-				|\vec{n^{´}}|-|\vec{n}|=
+				|\vec{n^{'}}|-|\vec{n}|=
 				\sqrt{
-				(P^{`}\textsubscript{x}-N\textsubscript{x})^2+
-				(P^{`}\textsubscript{y}-N\textsubscript{y})^2
+				(P^{'}\textsubscript{x}-N\textsubscript{x})^2+
+				(P^{'}\textsubscript{y}-N\textsubscript{y})^2
 				}
 			\end{align}
-		\subsection{Übertragen zur Plattform}
+		\subsection{Der Dreidimensionale Fall}	
 			\subsubsection{Definition der Eckpunkte}
-			\subsubsection{Raumbegrenzung}
-			\subsubsection{Berechnung der Längenänderungen}
-	\section{Betrachtungen im Dreidimensionalen}
-			\subsection{Vereinfachung durch Bewegung eines Punktes}
-			\subsection{Definition der Punkte}
 			Die Positionen der Motoren bleiben nach der Betrachtung im Zweidimensionalen identisch, jedoch wird jeder Motorposition eine Z- Koordinate hinzugefügt, sodass sich die Eckpunkte nun im Format N=(N\textsubscript{x} N\textsubscript{y} N\textsubscript{z}) befinden. Die x- und y- Komponenten bleiben bestehen, um sämtliche Vereinfachungen aus dem Zweidimensionalen übernehmen zu können.
 			\begin{figure}[h!]	
 				\begin{tikzpicture}[scale=1]		   
-					\coordinate 	[label=left:A] 										(A) 	at 	(0,10,0);
-					\coordinate 	[label=right:B] 									(B) 	at 	(14.5,10,0);
-					\coordinate 	[label=above:C] 									(C) 	at 	(7.25,10,-12);
-					\coordinate 	[label=left:P] 										(P) 	at 	(5,3.5,-1.5);
-					\coordinate 	[label=right:P'] 									(P') 	at 	(9,3.5,-5.7);
+				\coordinate 	[label=left:A] 										(A) 	at 	(0,10,0);
+				\coordinate 	[label=right:B] 									(B) 	at 	(14.5,10,0);
+				\coordinate 	[label=above:C] 									(C) 	at 	(7.25,10,-12);
+				\coordinate 	[label=left:P] 										(P) 	at 	(5,3.5,-1.5);
+				\coordinate 	[label=right:P'] 									(P') 	at 	(9,3.5,-5.7);
 				
-					\coordinate		[label=left:P\textsubscript{y}]						(YP)	at 	(0,0,-1.5);
-					\coordinate		[label=below:P\textsubscript{x}]					(XP)	at 	(5,0,0);
-					\coordinate		[label=left:P\textsuperscript{`}\textsubscript{y}]	(YP')	at 	(0,0,-5.7);
-					\coordinate		[label=below:P\textsuperscript{`}\textsubscript{x}]	(XP')	at 	(9,0,0);
-					\coordinate		[label=below:B\textsubscript{x}]					(XB)	at 	(14.5,0,0);
-					\coordinate		[label=below:C\textsubscript{x}]					(XC)	at 	(7.25,0,0);
-					\coordinate		[label=left:C\textsubscript{y}]					    (YC)	at 	(0,0,-12);
+				\coordinate		[label=left:P\textsubscript{y}]						(YP)	at 	(0,0,-1.5);
+				\coordinate		[label=below:P\textsubscript{x}]					(XP)	at 	(5,0,0);
+				\coordinate		[label=left:P\textsuperscript{`}\textsubscript{y}]	(YP')	at 	(0,0,-5.7);
+				\coordinate		[label=below:P\textsuperscript{`}\textsubscript{x}]	(XP')	at 	(9,0,0);
+				\coordinate		[label=below:B\textsubscript{x}]					(XB)	at 	(14.5,0,0);
+				\coordinate		[label=below:C\textsubscript{x}]					(XC)	at 	(7.25,0,0);
+				\coordinate		[label=left:C\textsubscript{y}]					    (YC)	at 	(0,0,-12);
 				
-												   %(x		,z		,y)
-					\draw[thick,->] (0,0,0) 		-- 	(15,0,0) 		node[anchor=north west]	{$x$};
-					\draw[thick,->] (0,0,0) 		-- 	(0,0,-15) 		node[anchor=south east]	{$y$};
-					\draw[thick,->] (0,0,0) 		-- 	(0,15,0) 		node[anchor=south]		{$z$};	
-					\draw[thick] 	(A) 			-- 	(B) 			;		
-					\draw[thick] 	(B) 			-- 	(C) 			node[midway,right]		{$y2$};	
-					\draw[thick] 	(C) 			-- 	(A) 			node[midway,above]		{$y1$};	
-					\draw[thick] 	(A) 			-- 	(P) 			node[midway,above]		{$a$};
-					\draw[thick] 	(A) 			-- 	(P') 			node[midway,above]		{$a'$};
-					\draw[thick] 	(B) 			-- 	(P) 			node[midway,above]		{$b$};
-					\draw[thick] 	(B) 			-- 	(P') 			node[midway,right]		{$b'$};
-					\draw[thick] 	(C) 			-- 	(P) 			node[midway,right]		{$c$};
-					\draw[thick] 	(C) 			-- 	(P') 			node[midway,left]		{$c'$};
-					\draw[thick] 	(P) 			-- 	(P') 			node[midway,above]		{$t$};
-					\draw[dashed,-]  (XB) 			-- 	(B) 		;
-					\draw[dashed,-]  (XC) 			-- 	(7.25,0,-12) 		;
-					\draw[dashed,-]  (YC) 			-- 	(7.25,0,-12) 		;
-					\draw[dashed,-]  (7.25,0,-12) 	-- 	(C) 		;
-					\draw[dashed,-]  (XP) 			-- 	(5,0,-1.5) 		;
-					\draw[dashed,-]  (YP) 			-- 	(5,0,-1.5) 		;
-					\draw[dashed,-]  (5,0,-1.5) 	-- 	(P);
-					\draw[dashed,-]  (XP') 			-- 	(9,0,-5.7) 		;
-					\draw[dashed,-]  (YP') 			-- 	(9,0,-5.7) 		;
-					\draw[dashed,-]  (9,0,-5.7) 	-- 	(P');
+				%(x		,z		,y)
+				\draw[thick,->] (0,0,0) 		-- 	(15,0,0) 		node[anchor=north west]	{$x$};
+				\draw[thick,->] (0,0,0) 		-- 	(0,0,-15) 		node[anchor=south east]	{$y$};
+				\draw[thick,->] (0,0,0) 		-- 	(0,15,0) 		node[anchor=south]		{$z$};	
+				\draw[thick] 	(A) 			-- 	(B) 			;		
+				\draw[thick] 	(B) 			-- 	(C) 			node[midway,right]		{$y2$};	
+				\draw[thick] 	(C) 			-- 	(A) 			node[midway,above]		{$y1$};	
+				\draw[thick] 	(A) 			-- 	(P) 			node[midway,above]		{$a$};
+				\draw[thick] 	(A) 			-- 	(P') 			node[midway,above]		{$a'$};
+				\draw[thick] 	(B) 			-- 	(P) 			node[midway,above]		{$b$};
+				\draw[thick] 	(B) 			-- 	(P') 			node[midway,right]		{$b'$};
+				\draw[thick] 	(C) 			-- 	(P) 			node[midway,right]		{$c$};
+				\draw[thick] 	(C) 			-- 	(P') 			node[midway,left]		{$c'$};
+				\draw[thick] 	(P) 			-- 	(P') 			node[midway,above]		{$t$};
+				\draw[dashed,-]  (XB) 			-- 	(B) 		;
+				\draw[dashed,-]  (XC) 			-- 	(7.25,0,-12) 		;
+				\draw[dashed,-]  (YC) 			-- 	(7.25,0,-12) 		;
+				\draw[dashed,-]  (7.25,0,-12) 	-- 	(C) 		;
+				\draw[dashed,-]  (XP) 			-- 	(5,0,-1.5) 		;
+				\draw[dashed,-]  (YP) 			-- 	(5,0,-1.5) 		;
+				\draw[dashed,-]  (5,0,-1.5) 	-- 	(P);
+				\draw[dashed,-]  (XP') 			-- 	(9,0,-5.7) 		;
+				\draw[dashed,-]  (YP') 			-- 	(9,0,-5.7) 		;
+				\draw[dashed,-]  (9,0,-5.7) 	-- 	(P');
 				\end{tikzpicture}
 				\caption{Darstellung der Transformation eines Punktes im Dreidimensionalen} 
 			\end{figure}
-			\subsection{Raumbegrenzung}
+		\pagebreak
+			\subsubsection{Raumbegrenzung}
 			Die Berechnung der räumlichen Begrenzung einer Bewegung im dreidimensionalen Raum kann äquivalent zur Bewegung im Zweidimensionalen durchgeführt werden. Die Begrenzung wird jedoch um folgende Bedingung erweitert:
 			\begin{align}
-				P\textsubscript{z}<A\textsubscript{z}\land P\textsubscript{z}>0
+			P\textsubscript{z}<A\textsubscript{z}\land P\textsubscript{z}>0
 			\end{align}
 			Damit muss nun jeder Punkt einer Bewegung folgende Bedingungen erfüllen:
 			\begin{align}
-						p\textsubscript{x}<c\textsubscript{x} 
-				\land 	p\textsubscript{y}<y\textsubscript{1}(p\textsubscript{x})
-				\land	P\textsubscript{z}<A\textsubscript{z}
-				\land 	P\textsubscript{z}>0 
-				\lor
-						p\textsubscript{x} \geq c\textsubscript{x} 
-				\land 	p\textsubscript{y}<y\textsubscript{2}(p\textsubscript{x})
-				\land	P\textsubscript{z}<A\textsubscript{z}
-				\land 	P\textsubscript{z}>0
+			p\textsubscript{x}<c\textsubscript{x} 
+			\land 	p\textsubscript{y}<y\textsubscript{1}(p\textsubscript{x})
+			\land	P\textsubscript{z}<A\textsubscript{z}
+			\land 	P\textsubscript{z}>0 
+			\lor
+			p\textsubscript{x} \geq c\textsubscript{x} 
+			\land 	p\textsubscript{y}<y\textsubscript{2}(p\textsubscript{x})
+			\land	P\textsubscript{z}<A\textsubscript{z}
+			\land 	P\textsubscript{z}>0
 			\end{align}
-			\subsection{Berechnung der Längenänderungen}
+			\subsubsection{Berechnung der Längenänderungen}
 			Die Berechnung der Längenänderung ergibt sich analog zum Zweidimensionalen, wird jedoch um die Z- Komponente erweitert.
 			\begin{align}
-				\Delta n =
-				|\vec{n^{´}}|-|\vec{n}|=
-				\sqrt{
+			\Delta n =
+			|\vec{n^{'}}|-|\vec{n}|=
+			\sqrt{
 				(P^{`}\textsubscript{x}-N\textsubscript{x})^2+
 				(P^{`}\textsubscript{y}-N\textsubscript{y})^2+
 				(P^{`}\textsubscript{z}-N\textsubscript{z})^2
-				}
+			}
 			\end{align}	
 \end{document}

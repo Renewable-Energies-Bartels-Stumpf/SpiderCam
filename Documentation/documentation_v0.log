@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  9 APR 2020 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  10 APR 2020 17:26
 entering extended mode
 **./documentation_v0.tex
 (documentation_v0.tex
@@ -500,98 +500,37 @@ ion_v0.toc)
 \tf@toc=\write4
 \openout4 = `documentation_v0.toc'.
 
- [2] (documentation_v0.lof)
+ (documentation_v0.lof)
 \tf@lof=\write5
 \openout5 = `documentation_v0.lof'.
 
 
-[3] [4] [5]
-Overfull \hbox (54.66693pt too wide) in paragraph at lines 106--115
+[2] [3] [4] [5]
+Overfull \hbox (54.66693pt too wide) in paragraph at lines 107--116
 \OT1/cmr/m/n/12 Ist ga-ran-tiert, dass al-le Punk-te der Be-we-gung rea-li-sier
 -bar sind kann die Be-rech-nung der Seill[]angen[]anderung
  []
 
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-Missing character: There is no ´ in font cmr8!
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-Missing character: There is no ´ in font cmr8!
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-Missing character: There is no ´ in font cmr8!
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 122.
-
-Missing character: There is no ´ in font cmr8!
-[6]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-Missing character: There is no ´ in font cmr8!
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-Missing character: There is no ´ in font cmr8!
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-Missing character: There is no ´ in font cmr8!
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-
-LaTeX Warning: Command \textasciiacute invalid in math mode on input line 201.
-
-Missing character: There is no ´ in font cmr8!
-[7] [8] (documentation_v0.aux) ) 
+[6] [7] [8] (documentation_v0.aux) ) 
 Here is how much of TeX's memory you used:
- 13456 strings out of 480930
- 259402 string characters out of 2917968
+ 13451 strings out of 480930
+ 259341 string characters out of 2917968
  507969 words of memory out of 3000000
- 29087 multiletter control sequences out of 15000+200000
- 539305 words of font info for 48 fonts, out of 3000000 for 9000
+ 29084 multiletter control sequences out of 15000+200000
+ 538631 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,60p,437b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\andia\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\andia\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><P:/miktex/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<P:/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-P:/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:
-/miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on documentation_v0.pdf (8 pages, 117851 bytes).
+<P:/miktex/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><P:/miktex/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><P:/miktex/fonts/
+type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/miktex/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb>
+Output written on documentation_v0.pdf (8 pages, 123826 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
