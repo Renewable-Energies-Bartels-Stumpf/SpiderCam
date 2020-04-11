@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  10 APR 2020 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  11 APR 2020 17:58
 entering extended mode
 **./documentation_v0.tex
 (documentation_v0.tex
@@ -511,26 +511,37 @@ Overfull \hbox (54.66693pt too wide) in paragraph at lines 107--116
 -bar sind kann die Be-rech-nung der Seill[]angen[]anderung
  []
 
-[6] [7] [8] (documentation_v0.aux) ) 
+[6] [7] [8] [9]
+Overfull \hbox (12.8409pt too wide) in paragraph at lines 281--282
+[][] 
+ []
+
+[10]
+Overfull \hbox (54.66693pt too wide) in paragraph at lines 321--330
+\OT1/cmr/m/n/12 Ist ga-ran-tiert, dass al-le Punk-te der Be-we-gung rea-li-sier
+-bar sind kann die Be-rech-nung der Seill[]angen[]anderung
+ []
+
+[11] [12] [13] (documentation_v0.aux) ) 
 Here is how much of TeX's memory you used:
- 13451 strings out of 480930
- 259341 string characters out of 2917968
+ 13565 strings out of 480930
+ 260943 string characters out of 2917968
  507969 words of memory out of 3000000
- 29084 multiletter control sequences out of 15000+200000
+ 29198 multiletter control sequences out of 15000+200000
  538631 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,60p,437b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
-<P:/miktex/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><P:/miktex/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><P:/miktex/fonts/
-type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cm
-r8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/miktex/fonts/ty
-pe1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb>
-Output written on documentation_v0.pdf (8 pages, 123826 bytes).
+ 60i,12n,60p,522b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
+<P:/miktex/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><P:/miktex/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><P:/miktex/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/miktex/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/c
+msy8.pfb>
+Output written on documentation_v0.pdf (13 pages, 137037 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
