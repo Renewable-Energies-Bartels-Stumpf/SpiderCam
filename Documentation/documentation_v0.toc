@@ -14,7 +14,7 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Übersichtsskizze}{10}%
 \contentsline {subsubsection}{\numberline {3.1.2}Raumbegrenzung}{11}%
 \contentsline {subsubsection}{\numberline {3.1.3}Berechnung der Längenänderungen}{11}%
-\contentsline {subsection}{\numberline {3.2}Transformation eines Plattform im Dreidimensionalen}{12}%
+\contentsline {subsection}{\numberline {3.2}Transformation einer Plattform im Dreidimensionalen}{12}%
 \contentsline {subsubsection}{\numberline {3.2.1}Übersichtsskizze}{12}%
 \contentsline {subsubsection}{\numberline {3.2.2}Raumbegrenzung}{13}%
 \contentsline {subsubsection}{\numberline {3.2.3}Berechnung der Längenänderungen}{13}%
