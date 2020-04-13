@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  13 APR 2020 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  13 APR 2020 17:16
 entering extended mode
-**./documentation_v0.tex
-(documentation_v0.tex
+**./documentation_v1.tex
+(documentation_v1.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-04-06> (P:\miktex\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -423,8 +423,8 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count279
 \l__pdf_internal_box=\box58
 )
-(documentation_v0.aux)
-\openout1 = `documentation_v0.aux'.
+(documentation_v1.aux)
+\openout1 = `documentation_v1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -496,52 +496,35 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 ABD: EveryShipout initializing macros [1
 
 {C:/Users/andia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (documentat
-ion_v0.toc)
+ion_v1.toc)
 \tf@toc=\write4
-\openout4 = `documentation_v0.toc'.
+\openout4 = `documentation_v1.toc'.
 
- (documentation_v0.lof)
+ (documentation_v1.lof)
 \tf@lof=\write5
-\openout5 = `documentation_v0.lof'.
+\openout5 = `documentation_v1.lof'.
 
 
-[2] [3] [4] [5]
-Overfull \hbox (54.66693pt too wide) in paragraph at lines 142--151
-\OT1/cmr/m/n/12 Ist ga-ran-tiert, dass al-le Punk-te der Be-we-gung rea-li-sier
--bar sind kann die Be-rech-nung der Seill[]angen[]anderung
- []
-
-[6] [7] [8] [9]
-Overfull \hbox (16.75752pt too wide) in paragraph at lines 317--318
-[][] 
- []
-
-[10]
-Overfull \hbox (54.66693pt too wide) in paragraph at lines 357--366
-\OT1/cmr/m/n/12 Ist ga-ran-tiert, dass al-le Punk-te der Be-we-gung rea-li-sier
--bar sind kann die Be-rech-nung der Seill[]angen[]anderung
- []
-
-[11] [12] [13] (documentation_v0.aux) ) 
+[2] [3] [4] [5] [6] [7] [8] [9] (documentation_v1.aux) ) 
 Here is how much of TeX's memory you used:
- 13548 strings out of 480930
- 260746 string characters out of 2917968
- 507969 words of memory out of 3000000
- 29181 multiletter control sequences out of 15000+200000
+ 13504 strings out of 480930
+ 260097 string characters out of 2917968
+ 499969 words of memory out of 3000000
+ 29137 multiletter control sequences out of 15000+200000
  538631 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,60p,523b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
-<P:/miktex/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><P:/miktex/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><P:/miktex/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/miktex/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/c
-msy8.pfb>
-Output written on documentation_v0.pdf (13 pages, 137162 bytes).
+ 60i,12n,60p,572b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
+<P:/miktex/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb>
+Output written on documentation_v1.pdf (9 pages, 128476 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
