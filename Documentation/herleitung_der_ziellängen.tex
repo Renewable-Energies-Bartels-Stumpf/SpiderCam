@@ -1,0 +1,38 @@
+\section{Herleitung der Ziellängen bzw. der Längenänderungen}
+	Im Folgenden werden sämtlich zuvor getroffenen Annahmen genutzt um die Ziellängen bzw. die Längenänderung aller Seile allgemein zu errechnen.
+		\subsection{Ziellängen}
+		Um eine xxx Regelung umzusetzen werden hier nun die Ziellängen aller Seile allgemein errechnet, die erreicht werden müssen um die Kamera an den gewünschten Punkt zu befördern.
+		\subsection{Längenänderung}
+			Die Berechnung der Ziellängen wird erweitert, um genaue Längenänderungen aller Motoren zu erhalten, welche notwendig sind um eine xxx Regelung umzusetzen.
+			Ist garantiert, dass alle Punkte der Bewegung realisierbar sind kann die Berechnung der Seillängenänderung erfolgen.Die Längenänderung der Steuerseile kann geometrisch bestimmt werden.
+			Dabei wird davon ausgegangen, dass die aktuelle Kameraposition P, sowie die Montagepositionen der Aktuatoren A, B und C bekannt sind.Die Länge des Seils a zu Motor A kann bestimmt werden als Subtraktion des Vektors zu Motor A und des Vektors zu P.Die Länge des Seils a' zu Motor A kann bestimmt werden als Subtraktion des Vektors zu Motor A und des Vektors zu P'.Damit ergibt sich die Längenänderung des Seils zu Motor A als Differenz der Längen a und a'.Analog dazu ergeben sich die Längenänderungen der Seile zu Motor B und C.
+			Soll ein Punkt mit drei Aktuatoren in der Ebene bewegt werden,so ergibt sich die Längenänderung $\Delta n$ in Abhängigkeit der Montageposition des Aktuators und der angestrebten Kameraposition zu:
+			\begin{align}
+				\Delta n =
+				|\vec{n^{'}}|-|\vec{n}|=
+				\sqrt	{
+						(P^{'}\textsubscript{x}-N\textsubscript{x})^2+
+						(P^{'}\textsubscript{y}-N\textsubscript{y})^2
+						}
+			\end{align}
+			Die Berechnung der Längenänderung im Dreisimensionalen ergibt sich analog zum Zweidimensionalen, wird jedoch um die Z- Komponente erweitert.
+			\begin{align}
+				\Delta n =
+				|\vec{n^{'}}|-|\vec{n}|=
+				\sqrt	{
+						(P^{`}\textsubscript{x}-N\textsubscript{x})^2+
+						(P^{`}\textsubscript{y}-N\textsubscript{y})^2+
+						(P^{`}\textsubscript{z}-N\textsubscript{z})^2
+						}
+			\end{align}	
+			Die Berechnung der Längenänderung mit Plattform muss um die auf Seitenlänge normierten Richtungsvektoren der Plattform erweitert werden.
+			\begin{align}
+				\Delta n =
+				|\vec{n^{'}}|-|\vec{n}|=
+				\sqrt	{
+						(P^{`}\textsubscript{x}-N\textsubscript{x})^2+
+						(P^{`}\textsubscript{y}-N\textsubscript{y})^2+
+						(P^{`}\textsubscript{z}-N\textsubscript{z})^2
+						}
+			\end{align}
+	\pagebreak
