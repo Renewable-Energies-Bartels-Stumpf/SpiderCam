@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  13 APR 2020 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  13 APR 2020 17:46
 entering extended mode
 **./documentation_v1.tex
 (documentation_v1.tex
@@ -418,28 +418,106 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (P:\miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code
 .tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (P:\miktex\tex/latex/l3backend\l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count279
-\l__pdf_internal_box=\box58
+))) (P:\miktex\tex/latex/etoc\etoc.sty
+Package: etoc 2019/11/17 v1.09b Completely customisable TOCs (JFB)
+
+(P:\miktex\tex/latex/tools\multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count279
+\mult@box=\box58
+\multicol@leftmargin=\dimen261
+\c@unbalance=\count280
+\c@collectmore=\count281
+\doublecol@number=\count282
+\multicoltolerance=\count283
+\multicolpretolerance=\count284
+\full@width=\dimen262
+\page@free=\dimen263
+\premulticols=\dimen264
+\postmulticols=\dimen265
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box59
+\last@line=\box60
+\maxbalancingoverflow=\dimen266
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@gfirstbox=\box63
+\mult@firstbox=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\c@minrows=\count285
+\c@columnbadness=\count286
+\c@finalcolumnbadness=\count287
+\last@try=\dimen267
+\multicolovershoot=\dimen268
+\multicolundershoot=\dimen269
+\mult@nat@firstbox=\box102
+\colbreak@box=\box103
+\mc@col@check@num=\count288
 )
-(documentation_v1.aux)
+\Etoc@toctoks=\toks34
+\c@etoc@tocid=\count289
+\c@etoc@tocdepth=\count290
+\etoc@framed@titlebox=\box104
+\etoc@framed@contentsbox=\box105
+)
+(P:\miktex\tex/latex/l3backend\l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count291
+\l__pdf_internal_box=\box106
+) (documentation_v1.aux)
 \openout1 = `documentation_v1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -462,7 +540,7 @@ LaTeX Font Info:    ... okay on input line 11.
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -477,26 +555,27 @@ LaTeX Font Info:    ... okay on input line 11.
 
 (P:\miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen261
-\scratchbox=\box59
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen262
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count292
+\scratchdimen=\dimen270
+\scratchbox=\box107
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen271
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks36
 ) (P:\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-ABD: EveryShipout initializing macros [1
+ABD: EveryShipout initializing macros
+\Etoc@tf=\read4
+ [1
 
-{C:/Users/andia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (documentat
-ion_v1.toc)
+{C:/Users/andia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 \tf@toc=\write4
 \openout4 = `documentation_v1.toc'.
 
@@ -504,27 +583,30 @@ ion_v1.toc)
 \tf@lof=\write5
 \openout5 = `documentation_v1.lof'.
 
+ [1] [2] [3] [4]
 
-[2] [3] [4] [5] [6] [7] [8] [9] (documentation_v1.aux) ) 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6] [7] [8] [9] (documentation_v1.aux) ) 
 Here is how much of TeX's memory you used:
- 13504 strings out of 480930
- 260097 string characters out of 2917968
- 499969 words of memory out of 3000000
- 29137 multiletter control sequences out of 15000+200000
+ 14102 strings out of 480930
+ 269265 string characters out of 2917968
+ 514420 words of memory out of 3000000
+ 29730 multiletter control sequences out of 15000+200000
  538631 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,60p,572b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
-<P:/miktex/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb>
-Output written on documentation_v1.pdf (9 pages, 128476 bytes).
+<P:/miktex/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><P:/mikt
+ex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><P:/mikte
+x/fonts/type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/miktex/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on documentation_v1.pdf (10 pages, 128977 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

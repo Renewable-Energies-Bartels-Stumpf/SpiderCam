@@ -1,24 +1,27 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[12pt,titlepage]{article}
 \usepackage[a4paper,left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usepackage{etoc}
 \usepackage{amsmath}
 \title{Spidercam}
 \date{April 2020}
 \author{Andreas Stumpf, Sönke Bartels}
 \begin{document}
 	\maketitle
-	\newpage
+	\newpage	
+	\linespread{2}
 	\tableofcontents
+	\vspace*{20mm}
 	\listoffigures
 	\pagebreak
 	\section{Einleitung}
 		Um automatisierte Kameraführungen in großen und schwer zugänglichen Orten, wie z.B. Stadien, zu ermöglichen werden Kameras an Seilen befestigt.
 		In diesem Dokument soll eine solche Kamerasteuerung geplant und durchgeführt werden.
 		Dabei wird eine theoretische Herleitung der Ortskoordinaten einer solchen Konstruktion durchgeführt und anschließend an einem Model verifiziert.
-		Ziel ist es entweder durch Vorgabe eines Endpunktes eine automatisierte Bewegungssteuerung zum definierten Punkt, oder eine Verfolgung einer Solltrajektorie zu erreichen. 
+		Ziel ist es entweder durch Vorgabe eines Endpunktes eine automatisierte Bewegungssteuerung zum definierten Punkt, oder eine Verfolgung einer Solltrajektorie zu erreichen.
 	\section{Definition aller Punkte und Raumbegrenzungen}
 		Da eine Darstellung der realen Konstruktion für sämtliche Herleitungen zunächst nicht erforderlich ist, wird im folgenden vereinfacht von der Transformation eines Punktes ausgegangen. Später wird eine Anpassung sämtlicher Herleitungen auf den realen Anwendungsfall erfolgen.
 		\pagebreak
