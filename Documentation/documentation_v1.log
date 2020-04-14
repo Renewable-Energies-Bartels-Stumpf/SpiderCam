@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  13 APR 2020 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.9)  14 APR 2020 21:12
 entering extended mode
 **./documentation_v1.tex
 (documentation_v1.tex
@@ -514,25 +514,30 @@ ion_v1.toc)
 
 [1] (einleitung.tex) (definition_aller_punkte_und_raumbegrenzungen.tex [2]
 (punkt_2d.tex) [3] (punkt_3d.tex) [4] (plattform_3d.tex)) [5]
-(raumbegrenzung.tex) (herleitung_der_ziellängen.tex [6])
-(verifizierung_durch_simulation.tex [7]) (plakativer_beweis_mit_modell.tex)
-[8] (documentation_v1.aux) ) 
+(raumbegrenzung.tex
+Overfull \hbox (52.71893pt too wide) detected at line 59
+[]
+ []
+
+) (herleitung_der_ziellängen.tex [6]) (verifizierung_durch_simulation.tex
+[7]) (plakativer_beweis_mit_modell.tex) [8] (documentation_v1.aux) ) 
 Here is how much of TeX's memory you used:
  13599 strings out of 480930
  261932 string characters out of 2917968
- 501379 words of memory out of 3000000
+ 502379 words of memory out of 3000000
  29202 multiletter control sequences out of 15000+200000
  538631 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,60p,611b,721s stack positions out of 5000i,500n,10000p,200000b,50000s
-<P:/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b><P:/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><P:/miktex/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b><P:/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><P:/miktex/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-P:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/miktex/fonts/type1/publ
-ic/amsfonts/cm/cmsy6.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on documentation_v1.pdf (9 pages, 127968 bytes).
+ 60i,12n,60p,854b,721s stack positions out of 5000i,500n,10000p,200000b,50000s
+<P:/miktex/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><P:/miktex/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><P:/miktex
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><P:/miktex/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><P:/miktex/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><P:/miktex/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><P:/miktex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><P:/miktex/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on documentation_v1.pdf (9 pages, 128439 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

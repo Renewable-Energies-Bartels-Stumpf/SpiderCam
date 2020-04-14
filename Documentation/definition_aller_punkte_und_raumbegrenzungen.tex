@@ -1,20 +1,19 @@
 \section{Definition aller Punkte und Raumbegrenzungen}
 		Da eine Darstellung der realen Konstruktion für sämtliche Herleitungen zunächst nicht erforderlich ist, wird im folgenden vereinfacht von der Transformation eines Punktes ausgegangen. Später wird eine Anpassung sämtlicher Herleitungen auf den realen Anwendungsfall erfolgen.
 		Um das Anfangsproblem zu vereinfachen wird die Herleitung der Längenänderung des Seils eines Motors zunächst im Zweidimensionalen durchgeführt. Das Übersetzen der Funktionen in den dreidimensionalen Raum ist damit trivial.
-		Um eine Durchführbarkeit innerhalb der geometrischen Begrenzungen zu garantieren, wird ein Koordinatensystem so in den Raum gelegt, sodass sich für zwei der drei Eckpunkte ein x- Wert von Null ergibt. Damit lassen sich Begrenzungsfunktionen zwischen den Eckpunkten aufstellen, die eine einfache Berechnung der Machbarkeit zulassen. Der theoretische Aufbau der Konstruktion sieht dann wie folgt aus:
+		Um eine Durchführbarkeit innerhalb der geometrischen Begrenzungen zu garantieren, wird ein Koordinatensystem so in den Raum gelegt, sodass sich für zwei der drei Eckpunkte ein x- Wert von Null ergibt. Damit lassen sich Begrenzungsfunktionen zwischen den Eckpunkten aufstellen, die eine einfache Berechnung der Machbarkeit zulassen. Die Vektoren $\vec{a}$ , $\vec{b}$ und $\vec{c}$ stellen die Seillängen vor der Transformation dar, während die Vektoren $\vec{a\textsuperscript{'}}$ , $\vec{b\textsuperscript{'}}$ und $\vec{c\textsuperscript{'}}$ jene nach der Transformation darstellen. Der Vektor $\vec{t}$ beschreibt dabei den Weg der während der Transformation zurückgelegt wird. Der theoretische Aufbau der Konstruktion sieht dann wie folgt aus:
 		\begin{figure}[H]	
 			\centering	
 			\input{punkt_2d.tex}
 		\end{figure}
 	\pagebreak
-		Die Positionen der Motoren bleiben nach der Betrachtung im Zweidimensionalen identisch, jedoch wird jeder Motorposition eine Z- Koordinate hinzugefügt, sodass sich die Eckpunkte nun im Format N=(N\textsubscript{x} N\textsubscript{y} N\textsubscript{z}) befinden. Die x- und y- Komponenten bleiben bestehen, um sämtliche Vereinfachungen aus dem Zweidimensionalen übernehmen zu können.
+		Die Positionen der Motoren bleiben nach der Betrachtung im Zweidimensionalen identisch, jedoch wird jeder Motorposition eine Z- Koordinate hinzugefügt, sodass sich die Eckpunkte allgemein nun im Format N=(N\textsubscript{x} N\textsubscript{y} N\textsubscript{z}) befinden. 
 		\begin{figure}[H]
 			\centering	
 			\input{punkt_3d.tex}
 		\end{figure} 
 	\pagebreak	
-		Im Folgenden wird die Anpassung sämtlicher Herleitungen auf die Transformation einer Plattform erfolgen. Da zuvor die Geometrie der Eckpunkte als gleichseitiges Dreieck festgelegt wurde, wird die Plattform zu diesem Zeitpunkt ebenfalls als gleichseitiges Dreieck betrachtet, da dies den einfachsten Anwendungsfall darstellt. Sämtliche Herleitungen sind allgemein gehalten, sodass der reale Anwendungsfall für eine optimale Umsetzung der Transformation keine Anpassungen erfahren muss.	
-		Die Positionen der Motoren bleiben nach der Betrachtung im Zweidimensionalen identisch, jedoch wird jeder Motorposition eine Z- Koordinate hinzugefügt, sodass sich die Eckpunkte nun im Format N=(N\textsubscript{x} N\textsubscript{y} N\textsubscript{z}) befinden. Die x- und y- Komponenten bleiben bestehen, um sämtliche Vereinfachungen aus dem Zweidimensionalen übernehmen zu können.
+		Die Betrachtung der Transformation eines Punktes im Dreidimensionalen wird nun erweitert, indem anstelle eines Punktes eine Plattform transformiert wird. Da zuvor die Geometrie der Eckpunkte als gleichseitiges Dreieck festgelegt wurde, wird die Plattform zu diesem Zeitpunkt ebenfalls als gleichseitiges Dreieck betrachtet, da dies den einfachsten Anwendungsfall darstellt. Sämtliche Herleitungen sind jedoch allgemein gehalten, sodass der reale Anwendungsfall für eine optimale Umsetzung der Transformation keine Anpassungen erfahren muss.	
 		\begin{figure}[H]
 			\centering	
 			\input{plattform_3d.tex}
